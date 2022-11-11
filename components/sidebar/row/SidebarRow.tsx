@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import './SidebarRow.scss';
+import Image from "next/image";
+import "./SidebarRow.scss";
 
 type Props = {
   title: string;

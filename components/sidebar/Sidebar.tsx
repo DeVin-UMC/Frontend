@@ -1,6 +1,6 @@
-import './Sidebar.scss';
-import SidebarRow from './row/SidebarRow';
-import Image from 'next/image';
+import "./Sidebar.scss";
+import SidebarRow from "./row/SidebarRow";
+import Image from "next/image";
 
 export default function Sidebar() {
   return (
