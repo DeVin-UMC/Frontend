@@ -1,0 +1,26 @@
+.window {
+  display: flex;
+  position: fixed;
+  margin-top: 67px;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  z-index: 0;
+}
+
+.contents {
+  position: sticky;
+  margin-top: 200px;
+  height: 100%;
+  top: -200px;
+  flex-grow: 0.7;
+  padding-left: 64px;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 55px 0px 0px;
+  background-color: var(--sidebar-bg-color);
+}
+
+.dummy {
+  width: 100px;
+  height: 100px;
+}
