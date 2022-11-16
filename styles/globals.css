@@ -38,7 +38,7 @@ blockquote, q {
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
 }
 table {
   border-collapse: collapse;
@@ -58,5 +58,20 @@ body {
 }
 
 body {
+  font-family: D2Coding, system-ui;
   background-color: var(--primary-color)
+}
+
+@font-face {
+  font-family: "D2Coding";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "D2Coding";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
 }
