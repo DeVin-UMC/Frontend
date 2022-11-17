@@ -52,8 +52,11 @@ button {
 
 
 body {
-  --primary-color: #B6E0FF;
-  --sidebar-bg-color: #F4F4F4;
+  --primary-color: #E9F6FF;
+  --sidebar-bg-color: #FCFCFC;;
+  --contents-window-color: #FCFCFC;
+  --grid-line-color: #CBCBCB;
+  --dividing-line-color: #8CCEFF;
   --gray: rgb(226 232 240);
 }
 

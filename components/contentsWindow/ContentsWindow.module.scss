@@ -1,26 +1,29 @@
 .window {
   display: flex;
   position: fixed;
-  margin-top: 67px;
   height: 100%;
   width: 100%;
+  margin-left: 56px;
   overflow: auto;
   z-index: 0;
 }
 
 .contents {
-  position: sticky;
-  margin-top: 200px;
   height: 100%;
-  top: -200px;
   flex-grow: 0.7;
-  padding-left: 64px;
-  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
-  border-radius: 0px 55px 0px 0px;
-  background-color: var(--sidebar-bg-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--contents-window-color);
 }
 
-.dummy {
-  width: 100px;
-  height: 100px;
+.top-line {
+  position: absolute;
+  width: 100%;
+  top: 110px;
+  border-bottom: 1px solid var(--dividing-line-color);
+}
+
+.grid {
+  height: 100%;
+  flex-grow: 0.3;
+  border-right: 1px solid var(--grid-line-color);
 }

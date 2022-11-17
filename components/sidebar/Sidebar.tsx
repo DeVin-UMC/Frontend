@@ -10,11 +10,11 @@ export default function Sidebar() {
         <Image src="/icons/LG.svg" width={25} height={25} alt="icon" />
       </div>
       <ul className="menu-list">
-        <SidebarRow src="/icons/CL_MBL.svg" title="Profile" />
-        <SidebarRow src="/icons/CL_Q.svg" title="Q&A" />
-        <SidebarRow src="/icons/CL_S.svg" title="Study" />
+        <SidebarRow src="/icons/CL_MBL.svg" />
+        <SidebarRow src="/icons/CL_Q.svg" />
+        <SidebarRow src="/icons/CL_S.svg" />
         <Link href="/projects">
-          <SidebarRow src="/icons/CL_P.svg" title="Project" />
+          <SidebarRow src="/icons/CL_P.svg" />
         </Link>
       </ul>
     </nav>
