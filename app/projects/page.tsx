@@ -10,7 +10,7 @@ const Projects = () => {
   console.log(data);
   return (
     <>
-      <ContentsWindow>test</ContentsWindow>
+      <ContentsWindow title="/titles/PROJECT.svg">test</ContentsWindow>
     </>
   );
 };
