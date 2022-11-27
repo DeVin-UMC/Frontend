@@ -1,13 +1,11 @@
 .sidebar {
   height: 100vh;
   min-width: 64px;
-  position: fixed;
+  //position: fixed;
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-
   border-right: 1px solid var(--dividing-line-color);
-
   background-color: var(--sidebar-bg-color);
 }
 
