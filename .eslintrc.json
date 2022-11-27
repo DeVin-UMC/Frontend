@@ -39,6 +39,7 @@
         "react/self-closing-comp": "warn",
         "eqeqeq": "warn", // 일치 연산자 사용 필수
         "react/jsx-curly-brace-presence": "warn",
-        "camelcase": "error"
+        "camelcase": "error",
+        "prettier/prettier": ["error", { "endOfLine": "auto" }]
     }
 }

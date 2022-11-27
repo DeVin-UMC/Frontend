@@ -3,13 +3,17 @@ import SidebarRow from './row/SidebarRow';
 import Image from 'next/image';
 import Link from 'next/link';
 
+
 export default function Sidebar() {
   return (
     <nav className="sidebar">
       <div className="logo">
-        <Image src="/icons/LG.svg" width={25} height={25} alt="icon" />
+        <Link href="/">
+          <Image src="/icons/LG.svg" width={25} height={25} alt="icon" />
+        </Link>
       </div>
       <ul className="menu-list">
+
         <Link href="/profile">
           <SidebarRow src="/icons/CL_MBL.svg" title="Profile" />
         </Link>
