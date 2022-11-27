@@ -13,7 +13,7 @@ export type Qna = {
   countAnswer: number;
   countLike: number;
   countUnlike: number;
-  tags: string;
+  tags: string[];
   like: boolean;
   unlike: boolean;
   commented: boolean;
