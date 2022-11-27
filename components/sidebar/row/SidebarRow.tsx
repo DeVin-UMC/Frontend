@@ -10,7 +10,6 @@ export default function SidebarRow({ title, src }: Props) {
   return (
     <div className="menu">
       <Image src={src} alt="icon" width="25" height="25" />
-      <span className="title">{title}</span>
     </div>
   );
 }
