@@ -32,7 +32,8 @@
     },
     "rules": {
         "react/react-in-jsx-scope": "off",
-        "func-style": ["error", "expression"],
+//        "func-style": ["error", "expression"],
+        "@typescript-eslint/ban-ts-comment": "off",
         "react/jsx-pascal-case": "warn", // 컴포넌트 이름은 PascalCase로
         "react/jsx-key": "warn", // key prop을 넣어야 함
         "react/self-closing-comp": "warn",

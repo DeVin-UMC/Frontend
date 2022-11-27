@@ -12,7 +12,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="icon" href="/favicon.ico" />
       </head>
 
-      <body>
+      <body style={{ display: 'flex' }}>
         <Sidebar />
         <ReactQueryWrapper>{children}</ReactQueryWrapper>
       </body>
