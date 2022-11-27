@@ -5,6 +5,7 @@ type Props = {
   qnaList?: Qna[];
 };
 const QnaList = ({ qnaList }: Props) => {
+  console.log(qnaList);
   return (
     <div>
       {qnaList?.map((qna, index) => (
