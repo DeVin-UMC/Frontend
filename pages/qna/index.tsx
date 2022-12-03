@@ -8,7 +8,7 @@ const QnaPage = () => {
   } = useQna();
 
   return (
-    <ContentsWindow title="/titles/PROJECT.svg">
+    <ContentsWindow title="/titles/Q&A.svg">
       <QnaList qnaList={data?.result} />;
     </ContentsWindow>
   );
