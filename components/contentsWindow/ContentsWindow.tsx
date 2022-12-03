@@ -14,16 +14,7 @@ const ContentsWindow = ({ title, children }: Props) => {
   return (
     <div className={cx("container")}>
       <div className={cx("window")}>
-        <div className={cx("main-contents")}>
-          {children}
-          <div className={cx("test-contents")}>test</div>
-          <div className={cx("test-contents")}>test</div>
-          <div className={cx("test-contents")}>test</div>
-          <div className={cx("test-contents")}>test</div>
-          <div className={cx("test-contents")}>test</div>
-          <div className={cx("test-contents")}>test</div>
-          <div className={cx("test-contents")}>test</div>
-        </div>
+        <div className={cx("main-contents")}>{children}</div>
       </div>
       <div className={cx("grid-line", "top")}>
         <Image className={cx("title")} src={title} alt="title" layout="fill" />
