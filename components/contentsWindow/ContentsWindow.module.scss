@@ -1,6 +1,5 @@
 .container {
   display: grid;
-  margin-left: 56px;
   height: 100vh;
   grid-template-columns: repeat(10, 1fr); // 가로축 10등분(선 그릴 때 3:2:2:3으로 그리드 나눠야 됨)
   grid-template-rows: repeat(8, 1fr); // 세로축 8등분
@@ -79,7 +78,7 @@
 
   grid-row: 1 / 9;
   grid-column: 1 / 8;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   background-color: var(--contents-window-color);
 }
 

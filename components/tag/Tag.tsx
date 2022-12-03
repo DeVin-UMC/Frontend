@@ -9,7 +9,8 @@ type Props = {
 const cx = classNames.bind(styles);
 
 // 텍스트 길이 측정 함수
-const getTextWidth = (text: string, font: string): string => {
+const getTextWidth = (text: string, font: string) => {
+  if (typeof document === "undefined") return;
   const canvas = document.createElement("canvas");
   // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
   const context = canvas.getContext("2d")!;
